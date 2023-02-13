@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-wrapper,
+#list {
+  position: absolute;
+}
+
+.top-wrapper {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  height: 40px;
+}
+
+#list {
+  bottom: 0px;
+  margin: 20px;
+  width: 22vw;
+  font-size: 20px;
+}
+
+#list > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#list > li > button {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}

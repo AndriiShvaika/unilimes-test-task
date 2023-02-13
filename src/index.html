@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js Tutorial</title>
+    <style>
+      #myCanvasId {
+        margin: 0;
+        display: block;
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="top-wrapper">
+      <select class="geometry-select" name="geometry" id="geometry">
+        <option value="">Please choose a geometry</option>
+        <option value="cube">Cube</option>
+        <option value="sphere">Sphere</option>
+        <option value="pyramid">Pyramid</option>
+      </select>
+      <input id="input" type="text" placeholder="Scale" />
+      <button id="button">Create</button>
+    </div>
+    <canvas id="myCanvasId"></canvas>
+    <ul id="list"></ul>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
